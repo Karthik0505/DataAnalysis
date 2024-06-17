@@ -29,33 +29,35 @@ The dataset used in this project is sourced from the UCI Machine Learning Reposi
 pip install pandas numpy matplotlib scikit-learn
 
 ## Project Structure
-data/
 
-raw/: Contains raw data files.
-processed/: Contains processed data files.
-notebooks/
+car-pricing-data-analysis/
+│
+├── data/                      # Directory for data files
+│   ├── raw/                   # Raw data files
+│   └── processed/             # Processed data files
+│
+├── notebooks/                 # Jupyter notebooks for analysis
+│   ├── 1_data_preprocessing_and_cleaning.ipynb
+│   ├── 2_eda_and_important_variables.ipynb
+│   └── 3_model_development.ipynb
+│
+├── scripts/                   # Python scripts for automation
+│   ├── preprocess.py          # Data preprocessing script
+│   ├── clean.py               # Data cleaning script
+│   ├── eda.py                 # Exploratory data analysis script
+│   ├── variable_selection.py  # Variable selection script
+│   ├── model.py               # Model development script
+│   └── evaluate.py            # Model evaluation script
+│
+├── results/                   # Directory for storing results
+│   ├── eda/                   # EDA results and visualizations
+│   ├── models/                # Trained models
+│   └── evaluation/            # Model evaluation results
+│
+├── README.md                  # Project overview and documentation
+├── requirements.txt           # List of dependencies
+└── LICENSE                    # Licensing information
 
-1_data_preprocessing_and_cleaning.ipynb: Jupyter notebook for data preprocessing and cleaning.
-2_eda_and_important_variables.ipynb: Jupyter notebook for exploratory data analysis and identifying important variables.
-3_model_development.ipynb: Jupyter notebook for developing machine learning models.
-scripts/
-
-preprocess.py: Script for data preprocessing.
-clean.py: Script for data cleaning.
-eda.py: Script for exploratory data analysis.
-variable_selection.py: Script for selecting important variables.
-model.py: Script for developing machine learning models.
-evaluate.py: Script for evaluating machine learning models.
-results/
-
-eda/: Directory for storing EDA results and visualizations.
-models/: Directory for storing trained machine learning models.
-evaluation/: Directory for storing model evaluation results.
-README.md: Markdown file containing project overview and instructions.
-
-requirements.txt: Text file listing dependencies required to run the project.
-
-LICENSE: File containing details about the project's licensing information.
 
 ## Data Preprocessing and Cleaning
 
