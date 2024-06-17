@@ -29,16 +29,17 @@ The dataset used in this project is sourced from the UCI Machine Learning Reposi
 pip install pandas numpy matplotlib scikit-learn
 
 ## Project Structure
+
 car-pricing-data-analysis/
 │
 ├── data/
 │ ├── raw/ # Raw data files
-│ ├── processed/ # Processed data files
+│ └── processed/ # Processed data files
 │
 ├── notebooks/
 │ ├── 1_data_preprocessing_and_cleaning.ipynb
 │ ├── 2_eda_and_important_variables.ipynb
-│ ├── 3_model_development.ipynb
+│ └── 3_model_development.ipynb
 │
 ├── scripts/
 │ ├── preprocess.py # Script for data preprocessing
@@ -46,12 +47,12 @@ car-pricing-data-analysis/
 │ ├── eda.py # Script for exploratory data analysis
 │ ├── variable_selection.py # Script for important variable selection
 │ ├── model.py # Script for model development
-│ ├── evaluate.py # Script for model evaluation
+│ └── evaluate.py # Script for model evaluation
 │
 ├── results/
 │ ├── eda/ # EDA results and visualizations
 │ ├── models/ # Trained models
-│ ├── evaluation/ # Model evaluation results
+│ └── evaluation/ # Model evaluation results
 │
 ├── README.md
 ├── requirements.txt # List of dependencies
