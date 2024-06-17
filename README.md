@@ -11,6 +11,7 @@ This repository contains a comprehensive workflow for analyzing and modeling a c
 - [Data Preprocessing and Cleaning](#data-preprocessing-and-cleaning)
 - [Exploratory Data Analysis (EDA) and Important Variables](#exploratory-data-analysis-eda-and-important-variables)
 - [Model Development](#model-development)
+- [Car Pricing Data Analysis Complete](#Complete-Analysis)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -120,6 +121,14 @@ SLR achieved 34% accuracy.
 MLR achieved 75% accuracy.
 
 Thus, the MLR model is chosen as the best fit for the data. Details of the model development process are provided in the 3_model_development.ipynb notebook.
+
+## Car Pricing Data Analysis Complete
+
+The Complete Project is avaiable in this Document named Car Pricing Data Analysis.ipynb
+  1. Data Preprocessing and cleaning.
+  2. EDA and important variable selection.
+  3. Model Development.
+  4. Evaluation.
 
 ## Contributing
 
